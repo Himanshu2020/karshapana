@@ -1,0 +1,57 @@
+2018-Apr-24 06:23:18.521848 INFO [daemon] jobcoin v1.1.1.1()
+2018-Apr-24 06:23:18.522110 INFO [daemon] Module folder: ./jobcoind
+2018-Apr-24 06:23:18.523400 INFO [daemon] Initializing p2p server...
+2018-Apr-24 06:23:18.523585 INFO [node_server] Binding on 0.0.0.0:17236
+2018-Apr-24 06:23:18.523700 INFO [node_server] Net service binded on 0.0.0.0:17236
+2018-Apr-24 06:23:18.523780 INFO [node_server] Attempting to add IGD port mapping.
+2018-Apr-24 06:23:22.528407 INFO [node_server] No IGD was found.
+2018-Apr-24 06:23:22.528723 INFO [daemon] P2p server initialized OK
+2018-Apr-24 06:23:22.528830 INFO [daemon] Initializing core...
+2018-Apr-24 06:23:22.529107 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Apr-24 06:23:22.555203 INFO [Blockchain] Blockchain initialized. last block: 0, d2120.h1.m23.s22 time ago, current difficulty: 1
+2018-Apr-24 06:23:22.555399 INFO [daemon] Core initialized OK
+2018-Apr-24 06:23:22.555576 INFO [daemon] Starting core rpc server on address 127.0.0.1:18236
+2018-Apr-24 06:23:22.555711 INFO [daemon] Core rpc server started ok
+2018-Apr-24 06:23:22.555790 INFO [daemon] Starting p2p net loop...
+2018-Apr-24 06:23:22.555859 INFO [node_server] Starting node_server
+2018-Apr-24 06:23:22.557529 INFO [protocol] 
+2018-Apr-24 06:23:22.557529 INFO [protocol] **********************************************************************
+2018-Apr-24 06:23:22.557529 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Apr-24 06:23:22.557529 INFO [protocol] 
+2018-Apr-24 06:23:22.557529 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Apr-24 06:23:22.557529 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Apr-24 06:23:22.557529 INFO [protocol] 
+2018-Apr-24 06:23:22.557529 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Apr-24 06:23:22.557529 INFO [protocol] **********************************************************************
+2018-Apr-24 06:23:22.558487 INFO [core] 
+2018-Apr-24 06:23:22.558487 INFO [core] **********************************************************************
+2018-Apr-24 06:23:22.558487 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Apr-24 06:23:22.558487 INFO [core] 
+2018-Apr-24 06:23:22.558487 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Apr-24 06:23:22.558487 INFO [core] 
+2018-Apr-24 06:23:22.558487 INFO [core] Use "help" command to see the list of available commands.
+2018-Apr-24 06:23:22.558487 INFO [core] 
+2018-Apr-24 06:23:22.558487 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Apr-24 06:23:22.558487 INFO [core] **********************************************************************
+2018-Apr-24 06:23:22.559244 WARNING [node_server] [35.187.232.16:50541 INC] Exception in connectionHandler: TcpConnection::read
+2018-Apr-24 06:23:36.280335 INFO [node_server] Stop signal sent
+2018-Apr-24 06:23:36.280644 INFO [node_server] Stopping NodeServer and it's0 connections...
+2018-Apr-24 06:23:36.280814 INFO [node_server] NodeServer loop stopped
+2018-Apr-24 06:23:36.280888 INFO [daemon] p2p net loop stopped
+2018-Apr-24 06:23:36.280963 INFO [daemon] Stopping core rpc server...
+2018-Apr-24 06:23:36.281063 INFO [daemon] Deinitializing core...
+2018-Apr-24 06:23:36.281129 INFO [miner] Mining has been stopped, 0 finished
+2018-Apr-24 06:23:36.281277 INFO [Blockchain] Saving blockchain...
+2018-Apr-24 06:23:36.281368 INFO [BlockCacheSerializer] - saving block index...
+2018-Apr-24 06:23:36.281436 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Apr-24 06:23:36.281520 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Apr-24 06:23:36.281584 INFO [BlockCacheSerializer] - saving outputs...
+2018-Apr-24 06:23:36.281646 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Apr-24 06:23:36.281718 INFO [BlockCacheSerializer] Serialization time: 0ms
+2018-Apr-24 06:23:36.281790 INFO [Blockchain] Saving blockchain indices...
+2018-Apr-24 06:23:36.281868 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Apr-24 06:23:36.281933 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Apr-24 06:23:36.281999 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Apr-24 06:23:36.282071 INFO [daemon] Deinitializing p2p...
+2018-Apr-24 06:23:36.282243 INFO [miner] Mining has been stopped, 0 finished
+2018-Apr-24 06:23:36.282635 INFO [daemon] Node stopped.

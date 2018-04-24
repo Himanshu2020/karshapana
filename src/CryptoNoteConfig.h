@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currencyo
 const char     CRYPTONOTE_NAME[]                             = "jobcoin";
-const char GENESIS_COINBASE_TX_HEX[]                         =  "";
+const char GENESIS_COINBASE_TX_HEX[]                         =  "013c01ff0001ecf104029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c1936144eb04e89e632f8eac218d9d3cdfc566d78cf6418b28c51635aeb811f5";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
